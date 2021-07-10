@@ -1,5 +1,26 @@
 # Dev Environment 
 
+# Introduction
+
+## Virtual Machine 
+A **Virtual Machine (VM)** is a compute resource that uses software instead of a physical computer to run programs 
+and deploy apps.Each virtual machine runs its own operating system and functions separately from the other VMs, 
+even when they are all running on the same host. This means that, for example, a virtual MacOS virtual machine can run
+on a physical PC. 
+
+VMs allow a business to run an operating system that behaves like a completely separate computer in an app window on
+a desktop. VMs may be deployed to accommodate different levels of processing power needs, to run software that requires
+a different operating system, or to test applications in a safe, sandboxed environment. 
+
+## Vagrant and VirtualBox
+**Vagrant** is a tool for building and managing virtual machine environments in a single workflow. u a disposable
+environment and consistent workflow for developing and testing infrastructure management scripts. 
+
+**VirtualBox** is a GUI and command line tool that makes it possible to deploy servers, desktops, and embedded 
+operating systems as VMs. A single VirtualBox host can deploy as many guest VMs as the host hardware can handle.
+
+
+
 ## Installation and Setup for Vagrant, VirtualBox and Ruby 
 # Ruby Installation 
 [Mac Ruby installation link](https://www.ruby-lang.org/en/downloads/)
